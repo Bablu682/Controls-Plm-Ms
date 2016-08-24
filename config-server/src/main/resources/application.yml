@@ -26,16 +26,13 @@ spring:
       enabled: false # note this needs to be turned on if you wnat the config server to work
       server:
          git:
-          uri: https://github.com/adnapster/yml
-          
+          uri: https://santhoshanna@github.com/santhoshanna/config-server
+          password: saibaba786
 logging:
   file: F://application_logs/${spring.application.name}.log
   levels:
     org.springframework.boot.env.PropertySourcesLoader: TRACE
     org.springframework.cloud.config.server: DEBUG  
-    #org.springframework: 'OFF'
-    #com.netflix.discovery: 'OFF'
-    #org.springframework.cloud: 'DEBUG'      
 
 
 
