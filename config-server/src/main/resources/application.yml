@@ -26,7 +26,7 @@ spring:
       enabled: false # note this needs to be turned on if you wnat the config server to work
       server:
          git:
-          uri: https://github.com/Bablu682/Controls-Plm-Ms-ymlFile.git
+          uri: https://github.com/adnapster/yml
           
 logging:
   file: F://application_logs/${spring.application.name}.log
